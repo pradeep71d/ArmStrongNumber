@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         while (number != 0) {
             temp = number % 10;
             total = total + temp * temp * temp;
-            number /= 10;
+            number =number/10;
         }
         if (total == num)
             System.out.println(num + " is an Armstrong number");
